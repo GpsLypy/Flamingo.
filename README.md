@@ -1,8 +1,13 @@
+1. 这是一个即时通讯软件，目前实现了一些基础功能。
+2. 客户端使用VS2019开发, WTL9.0，使用了C++11的一些特性。
+3. 服务器纯C++11开发，编译环境分别是：CentOS 7.9+cmake 3.6+gcc 4.8.5+mysql 5.7.34
+4. 客户端 Flamingo 为即时通讯主程序,CatchScreen为聊天中的截图工具, iAutoUpdate为自动升级工具。
+
 ### FlamingoIM
 
 [Read in English?](https://github.com/balloonwj/flamingo/blob/master/README_en.md)
 
-**我为 Flamingo 专门录制了两部高清技术讲解视频以方便读者学习，视频中介绍了Flamingo的编译和部署方法、整体架构、各个模块的技术实现细节以及如何学习Flamingo的方法，需要视频教程的读者可以扫描[高性能服务器开发]公众号二维码，关注后并在后台回复关键字“flamingo”即可得到下载链接。**
+**该视频中介绍了Flamingo的编译和部署方法、整体架构、各个模块的技术实现细节以及如何学习Flamingo的方法**
 
 ![flamingo Snapshot](https://github.com/balloonwj/flamingo/blob/master/easyserverdev_logo.jpg)
 
@@ -27,21 +32,15 @@ Flamingo IM 是一款高性能、轻量级的开源即时通讯软件，目前�
 - 修改个人信息（自定义昵称、签名、个性头像等个人信息）
 - 自动升级功能
 - 断线重连
-- 客户端还有很多细节功能，比如头像有三种显示模式、好友上线动画、聊天记录、聊天自动回复功能等，有兴趣的同学可以自己探索尝试一下吧，这里就不截图了。
-
-#### 编译和安装
+- 客户端还有很多细节功能，比如头像有三种显示模式、好友上线动画、聊天记录、聊天自动回复功能等
 
 ##### 服务器端的编译与安装
-
-###### 依赖的开发工具
 
 1. 安装cmake、makefile和gcc。
 
 ​作系统是 Linux，推荐的版本是 CentOS 7.0 以上。服务器代码使用纯C++11开发，所以您的gcc/g++版本必须至少在4.7以上，推荐的版本是4.8.5。另外，使用cmake和makefile工具进行项目管理和编译，因此您需要安装cmake和makefile工具。
 
 2. 安装 mysql。
-
-   使用的数据库是mysql，如果您使用的是CentOS 7.0及以上系统，需要安装 **mariadb-server**、**mariadb-client** 和 **mariadb-devel**。如果您使用的是其他版本的linux系统，请安装 **mysql-server**、**mysql-client** 和 **mysql-devel**。
 
    聊天服务 chatserver 会使用到 mysql，mysql 的库名（默认库名叫 flamingo）、登陆用户名和密码配置在 `flamingoserver/etc/chatserver.conf` 文件中。
 
@@ -159,59 +158,12 @@ Flamingo IM 是一款高性能、轻量级的开源即时通讯软件，目前�
 ​      生成后的程序位于目录**flamingoclient\Bin**目录下，其中客户端与服务器的连接配置信息位于**flamingoclient\Bin\config\flamingo.ini**文件中，直接打开**Flamingo.exe**即可启动flamingo pc端。
 
 
-
-####     安卓客户端编译和安装
-
-用Android Studio打开**flamingoAndroid/**目录下的安卓工程，编译产生相应的flamingo.apk文件，安装至安卓手机即可使用。与服务器的连接设置，在安卓版本的登陆界面的服务器设置中。
-
-
-
-#### 更新日志
-
-由于平常工作比较忙，不能固定周期地更新flamingo，但我保证我会一直维护下去。更新日志请参见：
+#### 项目原作者：
 
 https://github.com/baloonwj/flamingo/issues/1
 
-
-
-#### BUG反馈
-
-如果您在使用的过程中发现任何bug，可以给我发邮件：balloonwj@qq.com，也可以去 bug 反馈页面进行反馈：
-
-https://github.com/baloonwj/flamingo/issues/5。
-
-凡是涉及到崩溃、死机等影响使用的重大 bug，我将在三个工作日内予以解决；其他不影响使用的功能性 bug，两个星期内解决。
-
-
-
-#### 联系方式
-
-如果您在使用这个项目的过程中遇到任何问题，或者您对我的项目有任何意见或者建议，再或者有不错的想法欢迎与我交流，可以加我微信 **easy_coder**，您也可以加入QQ技术群进行交流讨论：**729995516**。
-
-
-
-#### Features Snapshot Below：
 
 #### 以下是部分功能截图：
 
 ##### pc版截图
 ![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/1.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/2.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/3.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/4.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/5.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/6.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/7.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/8.png)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/9.png)
-
-##### Android Version Snapshot
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/m1.jpg)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/m2.jpg)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/m3.jpg)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/m4.jpg)
-![flamingo Snapshot](http://www.hootina.org/github_flamingo_imgs/m5.jpg)
-
-
-
-
