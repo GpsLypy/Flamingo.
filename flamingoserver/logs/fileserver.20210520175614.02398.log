@@ -1,0 +1,2 @@
+[ERROR][[2021-05-20 17:56:14:577]][140098701993856][/flamingo/flamingoserver/fileserversrc/FileManager.cpp:45]open base dir error, errno: 2, No such file or directory
+[INFO][[2021-05-20 17:56:14:578]][140098701993856][/flamingo/flamingoserver/fileserversrc/main.cpp:110]fileserver initialization completed, now you can use client to connect it.

@@ -1,0 +1,13 @@
+[INFO][[2021-06-01 16:56:46:776]][139623607220096][/root/flamingo/flamingoserver/chatserversrc/UserManager.cpp:106]current base userid: 0, current base group id: 268435455
+[INFO][[2021-06-01 16:56:46:780]][139623607220096][/root/flamingo/flamingoserver/chatserversrc/main.cpp:153]chatserver initialization completed, now you can use client to connect it.
+[INFO][[2021-06-01 16:56:56:017]][139623313422080][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x95feacd0 , threadID: 139623313422080
+[INFO][[2021-06-01 16:56:56:017]][139623305029376][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x957e9cd0 , threadID: 139623305029376
+[INFO][[2021-06-01 16:56:56:017]][139623296636672][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x94fe8cd0 , threadID: 139623296636672
+[INFO][[2021-06-01 16:56:56:018]][139622944339712][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x7ffeecd0 , threadID: 139622944339712
+[INFO][[2021-06-01 16:56:56:018]][139622935947008][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x7f7edcd0 , threadID: 139622935947008
+[INFO][[2021-06-01 16:56:56:018]][139623567021824][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0xa51c4cd0 , threadID: 139623567021824
+[INFO][[2021-06-01 16:56:56:018]][139623558629120][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0xa49c3cd0 , threadID: 139623558629120
+[INFO][[2021-06-01 16:56:56:018]][139623346992896][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x97feecd0 , threadID: 139623346992896
+[INFO][[2021-06-01 16:56:56:019]][139623338600192][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x977edcd0 , threadID: 139623338600192
+[INFO][[2021-06-01 16:56:56:019]][139623330207488][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x96feccd0 , threadID: 139623330207488
+[INFO][[2021-06-01 16:56:56:019]][139623321814784][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x967ebcd0 , threadID: 139623321814784

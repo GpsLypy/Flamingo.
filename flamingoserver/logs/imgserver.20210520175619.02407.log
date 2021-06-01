@@ -1,0 +1,2 @@
+[ERROR][[2021-05-20 17:56:19:806]][140328030812032][/flamingo/flamingoserver/fileserversrc/FileManager.cpp:45]open base dir error, errno: 2, No such file or directory
+[INFO][[2021-05-20 17:56:19:808]][140328030812032][/flamingo/flamingoserver/imgserversrc/main.cpp:109]imgserver initialization complete, now you can use client to connect it.

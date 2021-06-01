@@ -1,0 +1,11 @@
+[INFO][[2021-06-01 16:37:18:741]][139911068587904][/root/flamingo/flamingoserver/imgserversrc/main.cpp:109]imgserver initialization complete, now you can use client to connect it.
+[INFO][[2021-06-01 16:52:04:939]][139911043286784][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x9407fcd0 , threadID: 139911043286784
+[INFO][[2021-06-01 16:52:04:940]][139911034894080][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x9387ecd0 , threadID: 139911034894080
+[INFO][[2021-06-01 16:52:04:940]][139911026501376][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x9307dcd0 , threadID: 139911026501376
+[INFO][[2021-06-01 16:52:04:940]][139911018108672][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x9287ccd0 , threadID: 139911018108672
+[INFO][[2021-06-01 16:52:04:940]][139911009715968][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x9207bcd0 , threadID: 139911009715968
+[INFO][[2021-06-01 16:52:04:940]][139911001323264][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x9187acd0 , threadID: 139911001323264
+[INFO][[2021-06-01 16:52:04:940]][139911068587904][/root/flamingo/flamingoserver/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x701a60 , threadID: 139911068587904
+[INFO][[2021-06-01 16:52:04:940]][139911068587904][/root/flamingo/flamingoserver/imgserversrc/main.cpp:113]exit imgserver.
+[ERROR][[2021-06-01 16:52:04:940]][139911068587904][/root/flamingo/flamingoserver/net/EpollPoller.cpp:216]epoll_ctl op=2 fd=3, epollfd=4, errno=2, errorInfo: No such file or directory
+[ERROR][[2021-06-01 16:52:04:940]][139911068587904][/root/flamingo/flamingoserver/net/EpollPoller.cpp:216]epoll_ctl op=2 fd=3, epollfd=4, errno=2, errorInfo: No such file or directory
