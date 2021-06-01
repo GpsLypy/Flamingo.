@@ -1,0 +1,1 @@
+[2021-05-23 19:48:44:0021][INFO][ThreadID: 13628][bool __thiscall CIUSocket::Login(const char *,const char *,int,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &):1118]Request logon: Account=498988598, Password=*****, Status=143588224, LoginType=1.
